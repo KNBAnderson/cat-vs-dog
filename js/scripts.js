@@ -1,0 +1,14 @@
+$(document).ready(function(){
+  $("button#greet").click(function(){
+    $("ul#cat").prepend("<li>meow");
+    $("ul#dog").prepend("<li>bark");
+  });
+  $("button#goodbye").click(function(){
+    $("ul#cat").prepend("<li>meeeeeoooooow");
+    $("ul#dog").prepend("<li>ruff");
+  });
+  $("button#fight").click(function(){
+    $("ul#cat").prepend("<li>MEEOOOOOOOOOWWWW");
+    $("ul#dog").prepend("<li>grrrrrrRRRRRRR");
+  });
+});

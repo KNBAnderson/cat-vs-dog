@@ -1,0 +1,9 @@
+.row{
+  padding: 20px;
+
+}
+.col-md-6{
+  width: 30%;
+
+  text-align: center;
+}
